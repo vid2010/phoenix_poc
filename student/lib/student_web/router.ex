@@ -18,7 +18,7 @@ defmodule StudentWeb.Router do
 
     get "/", PageController, :index
     get "/student", StudentController, :index
-    get "student/:messenger", StudentController, :show
+    get "/student/:messenger", StudentController, :show
   end
 
   # Other scopes may use custom stacks.
